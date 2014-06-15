@@ -11,7 +11,7 @@ That's the kind of thing we're talking about.
 
 ## Use
 
-`var relations = require('kanji-relations');
+`var relations = require('kanji-relations');`
 
 ## API
 
