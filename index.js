@@ -42,7 +42,7 @@ var relations = {
     , "弓": { strokes: 3, parents: ["𠃍","一"] }
     , "才": { strokes: 3, parents: ["一","亅"] }
 
-      "丰": { strokes: 4, parents: ["三","丨"] }
+    , "丰": { strokes: 4, parents: ["三","丨"] }
     , "⺹": { strokes: 4, parents: ["土","ノ"] }
     , "⺺": { strokes: 4, parents: ["⺕","丨"] }
     , "中": { strokes: 4, parents: ["囗","丨"] }

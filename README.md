@@ -32,3 +32,13 @@ gets all kanji that can be formed with this kanji
 gets all kanji that can be formed with all indicated parents.
 This is essentially the union of the arrays that result from
 calling `get(kanji)` for each kanji in the argument list.
+
+# example
+
+```
+var lib = require("kanji-relationships");
+console.log("children for ⺅: ", lib.getChildren("⺅").join(","));
+console.log("children for 木: ", lib.getChildren("木").join(","));
+console.log("children for both ⺅ and 木: ", lib.getChildren("⺅","木"));
+console.log("relationship information for 休: ", lib.get("休"));
+```
