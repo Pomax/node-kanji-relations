@@ -1,0 +1,11 @@
+{
+  "name": "kanji-relations",
+  "version": "0.0.1",
+  "repository": "https://github.com/Pomax/node-kanji-relations.git",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+  	"test": "node test"
+  }
+}
